@@ -89,6 +89,4 @@ app/
 - Mapas de familia/códigos en `domain/familias_map.py` usados al importar productos.
 
 ## Notas de seguridad
-- No subas el `.env`; usa `.env.example` como referencia.
 - Las credenciales de AWS/WMS/Mongo se deben cargar como variables de entorno en cada entorno (local, QA, prod).
-- Revisa `ALLOWED_ORIGINS` en `app/main.py` antes de exponer a internet. En producción usa una lista específica de dominios.
